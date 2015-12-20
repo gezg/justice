@@ -1,0 +1,22 @@
+html{height:100%;}
+body{height:100%;}
+.login-container{position: relative;width: 100%;height:100%;background: url(../images/login/login_bg.png) no-repeat;}
+.login-container .login-header{position: relative;width:400px;height:150px;margin: 0 auto;}
+.login-container .login-header .login-header-container{position: absolute;left: 0;bottom: 10px;}
+.login-container .login-header .login-header-container .logo{float: left;width:80px;height:80px;background: url(../images/login/red.png);}
+.login-container .login-header .login-header-container .jname{float: left;color: #Fff;line-height: 80px;font-size: 40px;}
+.login-container .login-body-bg{height:340px;background: #fff;filter:alpha(opacity=20);       /* IE */-moz-opacity:.2;              /* 老版Mozilla */-khtml-opacity:.2;              /* 老版Safari */opacity: .2;           /* 支持opacity的浏览器*/}
+.login-container .login-body-container{position: absolute;width: 900px;top: 150px;left: 50%;margin-left: -400px;height: 340px;}
+.login-container .login-body-container .left{float: left;width: 452px;height: 266px;margin-right: 25px;margin-top: 35px;background: url(../images/login/form_body_bg.png);}
+.login-container .login-body-container .cutoff{float: left;height:179px;width:2px;margin-top: 50px;background: url(../images/login/cutoff.png) no-repeat;}
+.login-container .login-body-container .right{float: left;width:360px;color:#fff;}
+.login-container .login-body-container .right .introduction{margin-top: 20%;margin-left: 20px;}
+.login-container .login-body-container .right .introduction p{margin: 0;}
+.login-form{margin-top: 30px;margin-left: 10px;}
+.login-form .form-group{margin: 0;margin-bottom: 10px;}
+.login-form .form-group dd,.login-form .form-group dt{display: inline-block;}
+.login-form .form-group dd{width:90px;font-weight: bold;color:#5170c0;font-size: 20px;}
+.login-form .form-group input[type="text"],.login-form .form-group input[type="password"]{background: #fff;width: 300px;padding-top:10px;padding-bottom:10px;font-size: 20px;}
+.login-form .form-btn-group{margin-top: 40px;margin-left: 33%;}
+.login-form .form-btn{width:136px;height:36px;border: 0;background: url(../images/login/login_btn_bg.png);font-size: 20px;font-weight: bold;color: #fff;}
+.login-form .form-btn:hover{background: url(../images/login/login_btn_hover.png);}
